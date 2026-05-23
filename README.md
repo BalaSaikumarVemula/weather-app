@@ -1,16 +1,121 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Weather App built using React JS and OpenWeatherMap API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔍 Search weather by city name
+- 🌡️ Real-time temperature display
+- 🌥️ Weather condition and icon
+- 💧 Humidity information
+- 🌬️ Wind speed display
+- 🌙 Dark / ☀️ Light mode toggle
+- ⌨️ Search on Enter key
+- 📱 Responsive design
+- ⚡ Fast and clean UI
+- ❌ Error handling for invalid cities
+- 🔄 Loading state support
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React JS
+- CSS3
+- Axios
+- OpenWeatherMap API
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+## 📂 Project Structure
+
+```bash
+weather-app/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── .env
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/BalaSaiKumarVemula/weather-app.git
+```
+
+### 2. Navigate to Project
+
+```bash
+cd weather-app
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Create `.env` File
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+
+Get your API key from:
+
+https://openweathermap.org/api
+
+### 5. Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 API Used
+
+OpenWeatherMap API
+
+https://openweathermap.org/api
+
+---
+
+## ✨ Future Improvements
+
+- 5-day weather forecast
+- Geolocation support
+- Dynamic weather backgrounds
+- Animated weather effects
+- Sunrise & sunset timing
+- Air quality index
+- Saved cities
+- Tailwind CSS redesign
+- Backend integration
+
+---
+
+## 👨‍💻 Author
+
+**Bala Sai Kumar**
+
+- GitHub: https://github.com/BalaSaiKumarVemula
+- LinkedIn: https://www.linkedin.com/in/bala-sai-kumar-vemula-821a49264/
+
+---
+
+## 📜 License
+
+This project is open source and available under the MIT License.
